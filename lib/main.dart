@@ -1,4 +1,7 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:liquid_swipe/liquid_swipe.dart';
 
 void main() {
@@ -13,6 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -90,6 +94,15 @@ class _HomeScreenState extends State<HomeScreen> {
                   "Sahdeep",
                   style: HomeScreen.style,
                 ),
+                Text(
+                  "pouya.code",
+                  style: TextStyle(
+                    backgroundColor: Colors.deepPurpleAccent,
+                    color: Colors.white,
+                    fontSize: 22,
+                    letterSpacing: 2,
+                  ),
+                ),
               ],
             ),
           ),
@@ -112,6 +125,15 @@ class _HomeScreenState extends State<HomeScreen> {
                 Text(
                   "Liquid Swipe",
                   style: HomeScreen.style,
+                ),
+                Text(
+                  "pouya.code",
+                  style: TextStyle(
+                    backgroundColor: Colors.green,
+                    color: Colors.black,
+                    fontSize: 22,
+                    letterSpacing: 2,
+                  ),
                 ),
               ],
             ),
@@ -136,6 +158,15 @@ class _HomeScreenState extends State<HomeScreen> {
                   "Give Star!",
                   style: HomeScreen.style,
                 ),
+                Text(
+                  "pouya.code",
+                  style: TextStyle(
+                    backgroundColor: Colors.yellow,
+                    color: Colors.black,
+                    fontSize: 22,
+                    letterSpacing: 2,
+                  ),
+                ),
               ],
             ),
           ),
@@ -158,6 +189,15 @@ class _HomeScreenState extends State<HomeScreen> {
                 Text(
                   "Onboarding Design",
                   style: HomeScreen.style,
+                ),
+                Text(
+                  "pouya.code",
+                  style: TextStyle(
+                    backgroundColor: Colors.blue,
+                    color: Colors.white,
+                    fontSize: 22,
+                    letterSpacing: 2,
+                  ),
                 ),
               ],
             ),
